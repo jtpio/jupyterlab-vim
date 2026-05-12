@@ -37,8 +37,8 @@ artifacts = ["jupyterlab_vim/labextension"]
 exclude = [".github", "binder"]
 
 [tool.hatch.build.targets.wheel.shared-data]
-"jupyterlab_vim/labextension" = "share/jupyter/labextensions/@axlair/jupyterlab_vim"
-"install.json" = "share/jupyter/labextensions/@axlair/jupyterlab_vim/install.json"
+"jupyterlab_vim/labextension" = "share/jupyter/labextensions/@jlab-contrib/jupyterlab-vim"
+"install.json" = "share/jupyter/labextensions/@jlab-contrib/jupyterlab-vim/install.json"
 
 [tool.hatch.build.hooks.version]
 path = "jupyterlab_vim/_version.py"

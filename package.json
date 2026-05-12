@@ -1,5 +1,5 @@
 {
-    "name": "@axlair/jupyterlab_vim",
+    "name": "@jlab-contrib/jupyterlab-vim",
     "version": "4.1.4",
     "description": "Code cell vim bindings",
     "author": {

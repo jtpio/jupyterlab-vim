@@ -11,5 +11,5 @@ except ImportError:
 def _jupyter_labextension_paths():
     return [{
         "src": "labextension",
-        "dest": "@axlair/jupyterlab_vim",
+        "dest": "@jlab-contrib/jupyterlab-vim",
     }]

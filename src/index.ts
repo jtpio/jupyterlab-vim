@@ -26,7 +26,7 @@ import {
 import { addNotebookCommands } from './labCommands';
 import { PartialJSONObject } from '@lumino/coreutils';
 
-const PLUGIN_NAME = '@axlair/jupyterlab_vim';
+const PLUGIN_NAME = '@jlab-contrib/jupyterlab-vim';
 const TOGGLE_ID = 'jupyterlab-vim:toggle';
 let enabled = false;
 let enabledInEditors = true;
